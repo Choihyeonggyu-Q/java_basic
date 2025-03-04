@@ -5,7 +5,11 @@ public class ControlAppMain {
         ControlApp demo = new ControlApp();
         // String msg = demo.woodMan2(3);
         // System.out.println(msg);
-        String result = demo.PassOrNonpass(39, 39, 39);
-        System.out.println(result);
+
+        // String result = demo.PassOrNonpass(39, 39, 39);
+        // System.out.println(result);
+        
+        double value = demo.calc(-2, '+', 1);
+        System.out.println(value);
     }
 }

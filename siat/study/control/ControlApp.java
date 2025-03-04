@@ -120,4 +120,30 @@ public class ControlApp {
         }
         return msg;
     }
+
+    /*
+     사칙연산 method 정의
+      oper -> +, -, *, /
+      break가 없으면 fall through 현상 발생
+    */
+    public double calc(int x, char oper, int y){
+        double result = 0.0;
+        switch (oper) {
+            case '+':
+                result = x + y;
+                break;
+            case '-':
+                result = x - y;
+                break;
+            case '*':
+                result = x * y;
+                break;
+            case '/':
+                result = x / y;
+                break;
+            default:
+                break;
+        }
+        return result;
+    }
 }
