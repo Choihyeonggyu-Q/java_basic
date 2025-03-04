@@ -1,3 +1,4 @@
+package java1Week;
 public class Car {
     
     // 클래스의 구성 요소 

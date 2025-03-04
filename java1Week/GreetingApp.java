@@ -1,3 +1,4 @@
+package java1Week;
 public class GreetingApp{
     /*
     자료형

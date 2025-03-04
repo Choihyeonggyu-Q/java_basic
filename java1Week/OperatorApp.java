@@ -1,3 +1,4 @@
+package java1Week;
 public class OperatorApp {
     // 클래스를 생성시 일단 생성자를 만든다.
     // 객체 생성 시 전역(멤버) 변수의 초기화를 도와주는 역할

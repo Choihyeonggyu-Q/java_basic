@@ -1,3 +1,4 @@
+package java1Week;
 public class Teacher {
     
     // 전역변수 선언

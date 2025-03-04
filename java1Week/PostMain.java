@@ -1,4 +1,4 @@
-import siat.study.PostDTO;
+package java1Week;
 import siat.study.service.PostService;
 import siat.study.view.PostView;
 

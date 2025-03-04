@@ -1,3 +1,4 @@
+package java1Week;
 public class VariableApp {
     public static void main(String[] args) {
         int     age = 20 ;

@@ -1,3 +1,4 @@
+package java1Week;
 public class OperatorMain {
     public static void main(String[] args) {
         OperatorApp operatorApp = new OperatorApp();
