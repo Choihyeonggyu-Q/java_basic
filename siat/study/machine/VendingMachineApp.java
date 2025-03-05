@@ -275,8 +275,54 @@ public class VendingMachineApp {
          - 반환 금액 출력
         */
     }
+    private int choiceNum;
+    private int inputMoney;
+
+    public void menu(){
+        System.out.println("메뉴를 고르세요");
+        System.out.println("1. 콜라(800), 2.생수(500), 3.비타민워터(1500)");
+
+        Scanner scan = new Scanner(System.in);
+        System.out.println("원하시는 음료번호를 입력해주세요");
+        choiceNum = scan.nextInt();
+        System.out.println("투입구에 돈을 넣어주세요.");
+        inputMoney = scan.nextInt();
+        
+    }
+
+
     public void menuSwitch(){
         System.out.println("debug >> switch Ver Vending Menu");
+        menu();
+        int price = 0;
+        switch (choiceNum) {
+            case 1:
+                price = COKE;
+                break;
+            case 2:
+                price = WATER;
+                break;
+            case 3:
+                price = VITA;
+                break;
+            default:
+                System.out.println("정확한 음료번호를 입력하세요.. 프로그램을 종료합니다.");
+                System.exit(0);
+                break;
+        }
+        
+        if (inputMoney < price) {
+            System.out.println("금액을 더 넣어주세요");
+        }else if(inputMoney == price){
+            System.out.println("반환 금액이 없습니다.");
+        }else{
+            inputMoney = inputMoney - price;
+            System.out.println("반환 금액은 " + inputMoney + "입니다.");
+            System.out.printf("1000원 %d장 500원 %d개 100원 %d개", 
+                            (inputMoney/1000),
+                            ((inputMoney%1000)/500),
+                            (((inputMoney)%1000)%500)/100);
+        }
     }
 
 }
