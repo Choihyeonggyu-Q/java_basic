@@ -150,3 +150,6 @@ public class LoopApp {
     }
 
 }
+// static -> 클래스의 소유
+//  final -> 상수 외부 수정 불가
+//  보편적으로 static final을 같이 씀
