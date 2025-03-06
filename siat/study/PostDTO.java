@@ -1,4 +1,5 @@
-package java1Week;
+package siat.study;
+
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
