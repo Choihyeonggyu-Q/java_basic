@@ -22,21 +22,5 @@ public class PostDAO {
     // 원래는 response가 맞다
     public PostRequestDTO [] selectRow(){
         return requestAry;
-        
-
-        // PostResponseDTO entity = PostResponseDTO.builder()
-        //                                     .title("강사를 고발합니다.")
-        //                                     .writer("조영석")
-        //                                     .content("구라야")
-        //                                     .viewCnt(1)
-        //                                     .build();
-
-        // PostResponseDTO [] ary = new PostResponseDTO[10];
-        // ary[0] = entity;
-        // ary[1] = entity;
-        // return ary ;
     }
-
-
-
 }
