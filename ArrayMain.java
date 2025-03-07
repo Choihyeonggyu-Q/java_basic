@@ -48,11 +48,11 @@ public class ArrayMain {
         ///////////////////////
         /// Quiz) PostDAO 객체 생성 후 selectRow() 메서드 호춯 후 출력
         PostDAO dao = PostDAO.builder().build();
-        PostResponseDTO [] dtoary = dao.selectRow();   
-        for(PostResponseDTO data : dtoary){
-            if(data != null){
-                System.out.println(data);
+        // PostResponseDTO [] dtoary = dao.selectRow();   
+        // for(PostResponseDTO data : dtoary){
+        //     if(data != null){
+        //         System.out.println(data);
             }
-        }
-    }   
+        // }
+    // }   
 }
