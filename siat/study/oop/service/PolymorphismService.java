@@ -31,13 +31,6 @@ public class PolymorphismService {
     - 생성된 객체는 배열에 담는다. 
     */
     public void makePerson(EnumOop num, String name, String addr, String spea){
-        // if(num == 1){
-        //     perAry[idx++] = new TeacherVO(name, addr, spea);
-        // }else if(num == 2){
-        //     perAry[idx++] = new StudentVO(name, addr, spea);
-        // }else if(num == 3){
-        //     perAry[idx++] = new ManagerVO(name, addr, spea);
-        // }
 
         switch (num.getDivision()) {
             case "강사":

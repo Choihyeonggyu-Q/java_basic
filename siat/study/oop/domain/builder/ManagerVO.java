@@ -12,4 +12,7 @@ public class ManagerVO extends PersonVO{
         return super.perInfo() + "\t부서는 : " + this.getDept();
     }
 
+    public String perInfo(){
+        return super.perInfo() + "\t부서는 : " + this.getDept();
+    }
 }

@@ -12,4 +12,7 @@ public class StudentVO extends PersonVO{
     public String stuInfo(){
         return super.perInfo() + "\t" + "학번 : " +this.getStuId();
     }
+    public String perInfo(){
+        return super.perInfo() + "\t" + "학번은 : " +this.getStuId();
+    }
 }
