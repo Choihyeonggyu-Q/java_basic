@@ -1,3 +1,4 @@
+package java2Week;
 
 import siat.study.post.dao.PostDAO;
 import siat.study.post.domain.PostRequestDTO;

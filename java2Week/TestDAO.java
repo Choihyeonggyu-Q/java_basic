@@ -1,3 +1,4 @@
+package java2Week;
 public class TestDAO {
     
     private String [] ary;

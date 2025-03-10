@@ -1,3 +1,4 @@
+package java2Week;
 import siat.study.prime.PrimeApp;
 
 public class PrimeAppMain {

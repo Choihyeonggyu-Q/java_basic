@@ -1,3 +1,4 @@
+package java2Week;
 import siat.study.oop.domain.constructor.ManagerVO;
 import siat.study.oop.domain.constructor.PersonVO;
 import siat.study.oop.domain.constructor.StudentVO;

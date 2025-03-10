@@ -1,3 +1,4 @@
+package java2Week;
 import siat.study.guess.GuessGameApp;
 
 public class GuessGameAppMain {
