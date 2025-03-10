@@ -12,15 +12,19 @@ public class ManagerVO extends PersonVO{
         this.dept = dept;
     }
 
-    public String manInfo(){
-        return super.perInfo() + "\t부서는 : " + this.getDept();
-    }
-
     public String getDept() {
         return dept;
     }
 
     public void setDept(String dept) {
         this.dept = dept;
+    }
+
+    public String manInfo(){
+        return super.perInfo() + "\t부서는 : " + this.getDept();
+    }
+
+    public String perInfo(){
+        return super.perInfo() + "\t부서는 : " + this.getDept();
     }
 }

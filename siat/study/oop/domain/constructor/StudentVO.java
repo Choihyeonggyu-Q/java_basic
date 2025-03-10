@@ -30,4 +30,11 @@ public class StudentVO extends PersonVO{
     public String stuInfo(){
         return super.perInfo() + "\t" + "학번 : " +this.getStuId();
     }
+
+    public String perInfo(){
+        // overriding
+        // super 를 반드시 사용해서 재귀호출을 막는다.
+        
+        return super.perInfo() + "\t" + "학번은 : " +this.getStuId();
+    }
 }

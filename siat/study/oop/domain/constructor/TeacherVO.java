@@ -11,9 +11,6 @@ public class TeacherVO extends PersonVO{
         super(name, addr);
         this.subject = subject;
     }
-    public String teacherInfo(){
-        return super.perInfo() + "\t과목은 : " + this.getSubject();
-    }
 
     public String getSubject() {
         return subject;
@@ -21,5 +18,13 @@ public class TeacherVO extends PersonVO{
 
     public void setSubject(String subject) {
         this.subject = subject;
+    }
+
+    public String teacherInfo(){
+        return super.perInfo() + "\t과목은 : " + this.getSubject();
+    }
+
+    public String perInfo(){
+        return super.perInfo() + "\t과목은 : " + this.getSubject();
     }
 }
