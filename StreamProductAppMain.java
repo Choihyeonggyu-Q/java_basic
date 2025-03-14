@@ -121,7 +121,7 @@ public class StreamProductAppMain {
         li.stream()
             .map(ProductVO::getProdName)
             .sorted()
-            .forEach(System.out::println);;
+            .forEach(System.out::println);
 
     }
 }
