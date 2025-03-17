@@ -1,3 +1,4 @@
+package java3Week;
 /*
 Collection API
 - List(중복 허용, 순서존재, 객체를 요소로 갖는다, 가변길이) -> 객체만 담을 수 있음

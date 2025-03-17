@@ -1,3 +1,4 @@
+package java3Week;
 public class StringAppMain {
     public static void main(String[] args) {
 

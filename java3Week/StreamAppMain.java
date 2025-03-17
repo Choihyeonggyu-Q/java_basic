@@ -1,3 +1,4 @@
+package java3Week;
 /*
 Collection - Java Stream(가독성 UP, 병렬처리 O, 유지보수 UP)
 기존 Collection -> Steam으로 넘어옴

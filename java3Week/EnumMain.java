@@ -1,3 +1,4 @@
+package java3Week;
 public class EnumMain {
     public static void main(String[] args) {
         EnumApp division =  EnumApp.EMP;

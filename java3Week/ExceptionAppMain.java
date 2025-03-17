@@ -1,3 +1,4 @@
+package java3Week;
 import java.io.IOException;
 
 public class ExceptionAppMain {

@@ -1,3 +1,4 @@
+package java3Week;
 /*
 - 자바의 상수의 집합타입 : enum 
 */

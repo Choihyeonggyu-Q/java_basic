@@ -1,3 +1,4 @@
+package java3Week;
 import siat.study.oop.abstraction.AbstractApp;
 import siat.study.oop.abstraction.InterfaceApp;
 
